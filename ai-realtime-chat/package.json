@@ -1,0 +1,13 @@
+{
+  "name": "ai-realtime-chat-suite",
+  "version": "1.0.0",
+  "description": "AI-Powered Real-Time Chat Application with React.js, Node.js, Socket.IO, MongoDB and AI APIs",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.4"
+  }
+}
